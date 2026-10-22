@@ -57,9 +57,21 @@ body::before{
   font-family:var(--font-d);font-size:clamp(2rem,6vw,4rem);
   letter-spacing:.08em;color:var(--ice);
   overflow:hidden;
+  text-align:center;
 }
 .loader-logo span{
   display:inline-block;color:var(--gold);
+}
+.loader-sub{
+  font-family:var(--font-m);
+  font-size:clamp(0.75rem,1.8vw,0.95rem);
+  font-weight:600;
+  letter-spacing:.38em;
+  text-indent:.38em;
+  color:var(--gold);
+  text-transform:uppercase;
+  text-align:center;
+  margin-top:-14px;
 }
 .loader-bar-wrap{width:220px;height:2px;background:var(--ice06);border-radius:2px;overflow:hidden;}
 .loader-bar{height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--gold2));border-radius:2px;transition:width .05s linear;}

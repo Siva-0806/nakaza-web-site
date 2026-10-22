@@ -21,10 +21,10 @@ function finishLoader() {
 
 /* ═══ TICKER ═══ */
 const TICKS = ['CEO & Founder','80+ Research Papers','60+ IPR Patents',
-  'Smart India Hackathon ×4','70+ Projects Built','IIT Madras','NIT Trichy',
+  'Smart India Hackathon 9+','70+ Projects Built','IIT Madras','NIT Trichy',
   'Qatar University','BBW Germany','BITS Pilani Dubai','Ministry of AYUSH',
   'AICTE YUKTI','Caterpillar Award','Bosch Innovation','L&T Techgium',
-  'KPIT Sparkle','7 SIH Victories','3 Continents'];
+  'KPIT Sparkle','9+ SIH Victories','3 Continents'];
 const tInner = document.getElementById('ticker-inner');
 const full = [...TICKS, ...TICKS];
 tInner.innerHTML = full.map(t =>
@@ -34,7 +34,7 @@ tInner.innerHTML = full.map(t =>
 /* ═══ TIMELINE MARQUEE DATA ═══ */
 const TL_CARDS = [
   {yr:'2018 to Present', title:'CEO and Founder', org:'Nakaza Automations LLP', desc:'Built a national innovation powerhouse: 60+ patents, 80+ papers, 70+ projects across India and globally.'},
-  {yr:'2019 to 2024', title:'SIH Coach, 4 Editions', org:'MHRD-AICTE, Smart India Hackathon', desc:'Led 7 student teams to victory across four consecutive SIH editions, an unparalleled coaching legacy.'},
+  {yr:'2019 to 2024', title:'SIH Coach, 9+ Editions', org:'MHRD-AICTE, Smart India Hackathon', desc:'Led 9+ student teams to victory across consecutive SIH editions, an unparalleled coaching legacy.'},
   {yr:'2020 to Present', title:'International Research Mentor', org:'Qatar, Germany and Dubai', desc:'Mentoring PhD and PG scholars at Qatar University, BBW Germany, and BITS Pilani Dubai Campus.'},
   {yr:'2021', title:'AICTE YUKTI Qualifier', org:'Ministry of Education, AICTE', desc:'Cleared the AICTE YUKTI Innovation Challenge securing national recognition and funding.'},
   {yr:'2020', title:'Ministry of AYUSH Grant', org:'Government of India', desc:'Received government support for the Automated Kashaya Machine innovation project.'},
